@@ -1,5 +1,14 @@
 
-console.log(process.argv[2], process.argv[3], process.argv[4]);
+// console.log(process.argv);
 
 
+// let frase = process.argv[2];
+// let frase2 = 'Hello Boolean';
 
+// if (frase === undefined){
+//     console.log(frase2);
+// }
+
+let frase2 = 'Hello Boolean';
+let frase = process.argv[2] ?? frase2;
+console.log(frase);
